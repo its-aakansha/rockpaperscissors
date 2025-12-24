@@ -1,0 +1,46 @@
+h1{
+    color:white;
+    background-color:indigo;
+    text-align: center;
+}
+#images{
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.image:hover{
+    filter:blur(1px);
+    cursor: pointer;
+}
+.scoreboard{
+     display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:larger;
+}
+#message{
+    background-color: cornflowerblue;
+    color: white;
+    width:fit-content;
+    padding:5px 12px;
+}
+#messagecontainer{
+    display: flex;
+    justify-content: center;
+}
+body {
+  background-color: #f3ecff;
+}
+
+
+
+
+
+
+
